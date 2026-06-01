@@ -1,7 +1,3 @@
-Here’s a polished version of something very similar you can use (same style, but rewritten and clean for GitHub or a portfolio project):
-
----
-
 # 💼 EmployeeSalaryApp 📊
 
 A modern Android application built with Material Design that calculates employee net salary based on progressive tax brackets, with support for multiple currencies and local history tracking.
@@ -106,10 +102,4 @@ This project was built as a learning exercise to practice:
 * Kotlin/Android state handling
 * Basic financial logic implementation
 
----
 
-If you want, I can also:
-
-* turn this into a **full GitHub repo structure**
-* add **Kotlin code for all classes**
-* or upgrade it to **MVVM + Room + Jetpack Compose version**
