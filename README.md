@@ -1,34 +1,67 @@
-EmployeeSalaryApp 📊
+💼 EmployeeSalaryApp 📊
 
-A modern, Material Design Android application that calculates employee net salary based on specific tax brackets.
+A modern Android application built with Material Design that calculates employee net salary based on progressive tax brackets, with support for multiple currencies and local history tracking.
+
 ✨ Features
+💰 Smart Tax Calculation
 
-    Dynamic Tax Calculation: Automatically applies tax rates based on salary:
-        0 - 10,000: 5% Tax
-        10,001 - 30,000: 7% Tax
-        Above 30,000: 10% Tax
-    Currency Selection: Support for USD ($), EUR (€), and GBP (£).
-    Material Design 3: Modern UI using CardViews, Outlined TextFields, and smooth Fade-in animations.
-    Calculation History: Tracks the last 5 calculations locally.
-    Share Functionality: Export your calculation history to other apps (WhatsApp, Email, etc.).
-    Input Validation: Real-time error handling for empty or invalid inputs.
+Automatically calculates tax based on salary ranges:
 
+0 – 10,000 → 5% Tax
+10,001 – 30,000 → 7% Tax
+Above 30,000 → 10% Tax
+💱 Multi-Currency Support
+
+Switch between multiple currencies:
+
+USD ($)
+EUR (€)
+GBP (£)
+🎨 Modern UI (Material Design 3)
+
+Built using clean and responsive UI components:
+
+Card-based layout
+Outlined text fields
+Smooth fade-in animations
+Clean typography and spacing
+📜 Calculation History
+Stores last 5 salary calculations locally
+Easy access to recent results
+Auto-removes oldest entry when limit is exceeded
+📤 Share Functionality
+Share calculation results via:
+WhatsApp
+Email
+Other installed apps
+✅ Input Validation
+Real-time validation for empty inputs
+Prevents invalid salary entries
+User-friendly error messages
 🛠️ Architecture
 
-The project follows clean coding principles by separating concerns into different classes:
+The project follows clean separation of concerns:
 
-    Employee: Data model for holding employee information.
-    EmployeeSalaryCalculator: Logic class dedicated to performing all tax and salary math.
-    MainActivity: Controller class managing the UI state and user interactions.
-
+Employee
+Data model representing employee details and salary input.
+EmployeeSalaryCalculator
+Handles all tax logic and salary computation.
+MainActivity
+Controls UI interactions, state management, and user events.
 🚀 How to Run
-
-    Clone this repository.
-    Open the project in Android Studio (Hedgehog or newer).
-    Run the app on a Pixel 8 Emulator (API 34).
-
+Clone this repository
+Open in Android Studio (Hedgehog or newer)
+Let Gradle sync finish
+Run on an emulator (recommended: Pixel 8, API 34+) or a physical device
 📸 Screenshots
 
-(Tip: You can drag your recorded video or screenshots into this section on GitHub!)
+(Add screenshots or screen recordings here to showcase UI and functionality)
 
-Developed as a professional Android learning project.
+📌 Notes
+
+This project was built as a learning exercise to practice:
+
+Clean architecture principles
+Material Design 3 UI development
+Kotlin/Android state handling
+Basic financial logic implementation
